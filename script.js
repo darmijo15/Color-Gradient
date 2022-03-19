@@ -17,7 +17,6 @@ gradientBtn.addEventListener('click', function() {
         hex2 += `${hexValues[randomHexValue]}`;
     }
 
-    console.log(hex1, hex2);
     gradientPara.innerHTML = `background: linear-gradient(to right, ${hex1}, ${hex2})`;
     document.body.style.background = `linear-gradient(to right, ${hex1}, ${hex2}`;
 })
